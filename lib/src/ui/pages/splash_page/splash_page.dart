@@ -1,4 +1,5 @@
 import 'package:fluchat/src/ui/pages/sign_in_up_page/sign_in_page.dart';
+import 'package:fluchat/src/ui/pages/sign_in_up_page/sign_up_page.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
@@ -59,7 +60,7 @@ class _SplashPageState extends State<SplashPage> {
             ),
             GestureDetector(
               onTap: () {
-                Navigator.pushReplacementNamed(context, SignInPage.id);
+                Navigator.pushReplacementNamed(context, SignUpPage.id);
               },
               child: Padding(
                 padding: const EdgeInsets.only(left: 24, right: 24, top: 18),
